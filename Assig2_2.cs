@@ -2,7 +2,7 @@ using System;
 
 namespace Assignments
 {
-    class Assgmnt1_2
+    class Assgmnt2_2
     {
         static void Main(string[] args)
         {
