@@ -9,14 +9,12 @@ namespace Assignments
             int WeekDayNumber;
 
             Console.WriteLine("Please, enter the number of the day:");
-            WeekDayNumber = Int32.Parse(Console.ReadLine());
 
-            /*
-            if (!Int32.TryParse(Console.ReadLine(), out WeekDayNumber) || WeekDayNumber > 7 || WeekDayNumber < 0 )
+            
+            if (!Int32.TryParse(Console.ReadLine(), out WeekDayNumber))
             {
                 Console.WriteLine("Please add correct verification in the code!");
-            } ---> if I use this option, instead of default, when executing the code I have to type twice, in order fot the code to verify, whether
-                   entered value is correct. Why is it like that and how can I get rid of this extra line? Where is my mistake?*/
+            } 
 
             switch (WeekDayNumber)
             {
